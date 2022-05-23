@@ -1,17 +1,9 @@
 {
-  "identifier": "debian",
+  "identifier": "dougs-base-image",
   "about": {
-    "title": "engines debian base",
-    "explanation": "Docker Base for debian images"
+    "title": "Dougs image",
+    "explanation": "Dougs image"
   },
-  "system_packages": {
-    "adds": [
-      "apt-transport-https",
-      "unzip",
-      "wget",
-      "ca-certificates"
-    ]
-    },
       "ports": [
     {
       "start_port": 8501,
