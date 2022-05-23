@@ -1,0 +1,22 @@
+{
+  "identifier": "debian",
+  "about": {
+    "title": "engines debian base",
+    "explanation": "Docker Base for debian images"
+  },
+  "system_packages": {
+    "adds": [
+      "apt-transport-https",
+      "unzip",
+      "wget",
+      "ca-certificates"
+    ]
+    },
+      "ports": [
+    {
+      "start_port": 8501,
+      "protocol": "tcp",
+      "external_port": 8501
+    }
+  ]
+    }
