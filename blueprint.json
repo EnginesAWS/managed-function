@@ -1,14 +1,14 @@
 {
-  "identifier": "dougs-base-image",
+  "identifier": "managed-functions-base",
   "about": {
-    "title": "Dougs image",
-    "explanation": "Dougs image"
+    "title": "Managed Functions base image",
+    "explanation": "for building the base image"
   },
-      "ports": [
+  "ports": [
     {
       "start_port": 8501,
       "protocol": "tcp",
       "external_port": 8501
     }
   ]
-    }
+}
