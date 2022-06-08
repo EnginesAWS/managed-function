@@ -1,7 +1,7 @@
 {
-  "identifier": "managed-functions-base",
+  "identifier": "python",
   "about": {
-    "title": "Managed Functions base image",
+    "title": "Python base image for AWS",
     "explanation": "for building the base image"
   },
   "ports": [
