@@ -6,9 +6,9 @@
   },
   "ports": [
     {
-      "start_port": 8501,
+      "container_port": 8501,
       "protocol": "tcp",
-      "external_port": 8501
+      "host_port": 8501
     }
   ]
 }
