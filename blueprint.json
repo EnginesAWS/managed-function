@@ -1,14 +1,14 @@
 {
-  "identifier": "dougs-base-image",
+  "identifier": "python",
   "about": {
-    "title": "Dougs image",
-    "explanation": "Dougs image"
+    "title": "Python base image for AWS",
+    "explanation": "for building the base image"
   },
-      "ports": [
+  "ports": [
     {
-      "start_port": 8501,
+      "container_port": 8501,
       "protocol": "tcp",
-      "external_port": 8501
+      "host_port": 8501
     }
   ]
-    }
+}
