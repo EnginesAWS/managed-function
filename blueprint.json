@@ -4,6 +4,13 @@
     "title": "Python base image for AWS",
     "explanation": "for building the base image"
   },
+  "repositories": [
+    {
+      "type": "code_artifact",
+      "domain": "engines-demo",
+      "name": "pypi-store"
+    }
+  ],
   "ports": [
     {
       "container_port": 8501,
