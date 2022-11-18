@@ -7,6 +7,7 @@
   "repositories": [
     {
       "type": "code_artifact",
+      "content": "python",
       "domain": "engines-demo",
       "name": "pypi-store"
     }
